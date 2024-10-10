@@ -1,0 +1,156 @@
+.container {
+    max-width: 100%;
+    margin: 100px auto;
+    padding: 20px;
+    background: linear-gradient(145deg, #f4f4f4, #e0e0e0);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Menyusun item ke kiri */
+}
+
+.container .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Mengatur jarak antara elemen di header */
+    width: 100%;
+}
+
+h2 {
+    font-size: 32px;
+    color: #4b0082;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: -webkit-linear-gradient(#6f42c1, #007bff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-custom {
+    display: inline-block;
+    padding: 12px 20px;
+    background: linear-gradient(145deg, #007bff, #6f42c1);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 18px;
+    transition: all 0.4s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn-custom:hover {
+    background: linear-gradient(145deg, #6f42c1, #007bff);
+    color: #fff;
+    transform: translateY(-5px);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.table thead {
+    background-color: #4b0082;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.table thead th {
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.table tbody tr {
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.table tbody tr:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.02);
+}
+
+.table tbody td {
+    padding: 15px;
+    font-size: 16px;
+    color: #333;
+    vertical-align: middle;
+}
+
+.table tbody td img {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.table tbody td img:hover {
+    transform: scale(1.1);
+}
+
+.btn {
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    margin-right: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
+
+.btn-danger {
+    background-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    transform: translateY(-3px);
+}
+
+.alert {
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #28a745;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+.button,
+form button {
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.truncate-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 150px; /* Sesuaikan lebar maksimal sesuai kebutuhan */
+}
